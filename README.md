@@ -35,7 +35,7 @@ Table of Contents
     
   * [Next vs Nuxt](libraries-frameworks.md#Next-vs-Nuxt)
     * Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
-    * Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.
+    * Nuxt.js is a free and open source web application framework based on Vue.js, Webpack and Babel.js.
 
 
 ## Databases
