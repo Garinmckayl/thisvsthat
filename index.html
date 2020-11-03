@@ -27,6 +27,10 @@
 />
   <link rel="icon" href="_media/logo.png" type="image/png">
   <style>
+  :root {
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: #09c372;
+  }
     nav.app-nav li ul {
       min-width: 100px;
     }
@@ -38,7 +42,7 @@
   <div id="app">Loading...</div>
   <script>
     window.$docsify = {
-      name: 'thisvsthat',
+      name: 'ThisVsThat.tech',
       repo: 'Garinmckayl/thisvsthat',
       search: ['/'],
       coverpage: true,
@@ -46,6 +50,13 @@
       loadSidebar: true,
       loadNavbar: true,
       executeScript: true,
+      tabs: {
+        persist    : true,      // default
+        sync       : false,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
       plugins: [
         function(hook) {
           var footer = [
@@ -94,12 +105,44 @@
                 // toogleImage : 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
             }
 
-            }
+            },
+      plugins: [
+        function(hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="https://twitter.com/zealshama">ZeAlshama</a> &copy;2020 - present.</span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        },
+      function(hook, vm) {
+        hook.beforeEach(function(html) {
+          var url =
+            'https://github.com/Garinmckayl/thisvsthat/tree/master/' +
+            vm.route.file;
+          var editHtml = '[📝 Edit this Page](' + url + ')\n';
+
+          return (
+            editHtml +
+            html +
+            '\n----\n' +
+            'Last modified {docsify-updated} ' +
+            editHtml
+          );
+        });
+    }
+      ]
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4.11.3/lib/docsify.min.js" data-ga="G-CZ9Q3GV67H"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  <!-- docsify-tabs (latest v1.x.x) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4.11.3/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script 
   src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
   type="text/javascript">

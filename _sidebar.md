@@ -8,7 +8,6 @@
 
   - [C vs C++](programming-languages.md#C-vs-C++ "C VS C++ comparision")
   - [Python vs C++](programming-languages.md#Python-vs-C++ "Python Vs C++ comparision")
-  - [Java vs Nodejs](programming-languages.md#Java-vs-Nodejs)
   - [Html vs Markdown](programming-languages.md#Html-vs-Markdown)
 
 

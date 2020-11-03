@@ -19,7 +19,29 @@ class MyReactComponent extends React.Component {
   }
 }
 ```
+<!-- tabs:start -->
 
+#### ** React **
+
+```javascript
+class MyReactComponent extends React.Component {
+  render() {
+    return <h1>Hello world</h1>;
+  }
+}
+```
+
+#### ** Vue **
+
+```javascript
+class MyVueComponent extends React.Component {
+  render() {
+    return <h1>Hello world</h1>;
+  }
+}
+```
+
+<!-- tabs:end -->
 
 ## Svelte vs React
 Svelte is an open-source Javascript framework, Svelte writes code that surgically updates the DOM when the state of your app changes.

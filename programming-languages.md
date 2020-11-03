@@ -4,8 +4,11 @@ Table of Contents
 =================
 
    * [C vs C++](#C-vs-C++)
+      * [Code Comparsion](#Code-Comparsion-C-vs-C++)
    * [C++ vs Python](#Python-vs-C++)
+      * [Code Comparsion](#Code-Comparsion-Python-vs-C++)
    * [Html vs Markdown](#Html-vs-Markdown)
+      * [Code Comparsion](#Code-Comparsion-Html-vs-Markdown)
 
 
 
@@ -15,146 +18,106 @@ C and C++ are somehow similar languages, C++ released as extension for C program
 C is a general-purpose, procedural computer programming language.
 C++ is a high-level programming language, C++ adds object-oriented features to its predecessor, C.
 
+### Code Comparsion C vs C++
 
+#### **Print Hello World**
 
-<table>
-<tbody>
-<tr>
-<td>PARAMETER</td>
-<td>C</td>
-<td>C++</td>
-</tr>
-<tr>
-<td></td>
-<td>Developed by Dennis Ritchie between the year 1969 and 1973 at AT&T Bell Labs.</td>
-<td>Developed by Bjarne Stroustrup in 1979.</td>
-</tr>
-<tr>
-<td>Library and Header files inclusion</td>
-<td>
-<code>
-#include &lt;stdio.h&gt;
-#include &lt;string.h&gt;
-</code>  
-</td>
-<td>
-<code>
-#include &lt;iostream&gt;
-using namespace std;
-#include &lt;math.h&gt;
-</code> 
-</td>
-</tr>
-<tr>
-<td>Main method declaration</td>
-<td>
-<code>
-#include &lt;stdio.h&gt; 
-  int main() 
-  { 
+<!-- tabs:start -->
 
-  // Your code here 
+#### ** C **
 
-  return 0; 
-  } 
-</code>
-</td>
-<td>
-<code>
-#include &lt;iostream.h&gt;
+```clike
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+```
+
+#### ** C++ **
+
+```clike
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+```
+
+<!-- tabs:end -->
+
+#### **Display Fibonacci Series**
+
+<!-- tabs:start -->
+
+#### ** C  **
+
+```clike
+#include<stdio.h>
 int main()
 {
-  
-// Your code here
-  
-return 0
-}
-  
-</code>  
-</td>
-</tr>
-<tr>
-<td>Declaring Variables</td>
-<td>
-<code>
-int a;
-  
-// Declaring more than one variable
-    char a, b, c, d;
-  
-// Initializing variables 
-    float a = 0, b, c;
-    b = 1; 
-  
-</code>  
-</td>
-<td>
-<code>
-// Declaring one variable at a time 
-    int a;
-  
-// Declaring more than one variable 
-    char a, b, c, d;
-  
-// Initializing variables 
-    float a = 0, b, c;
-    b = 1; 
-
-</code>
-</td>
-</tr>
-<tr>
-<td>Printing to console</td>
-<td>
-<code>
- printf("Hello World");
-</code>
-</td>
-<td>
-<code>
-cout << "Hello World";
-</code>
-</td>
-</tr>
-<tr>
-<td>Taking Input</td>
-<td>
-<code>
-int a;
-    printf("first number: ");
-    scanf("%d", &a);
+    int count, first_term = 0, second_term = 1, next_term, i;
  
-    printf("a");
+    //Ask user to input number of terms 
+    printf("Enter the number of terms:\n");
+    scanf("%d",&count);
+ 
+    printf("First %d terms of Fibonacci series:\n",count);
+    for ( i = 0 ; i < count ; i++ )
+    {
+       if ( i <= 1 )
+          next_term = i;
+       else
+       {
+          next_term = first_term + second_term;
+          first_term = second_term;
+          second_term = next_term;
+       }
+       printf("%d\n",next_term);
+    }
+ 
+    return 0;
+}
+```
 
-</code>  
-</td>
-<td>
-<code>
-int a;
-    cout << "first number: ";
-    cin >> a;
-    cout << a;
+#### ** C++ **
 
-</code>
-</td>
-</tr>
-<tr>
-<td>Commenting</td>
-<td>
-<code>
-// InlineComment
-/* BlockComment */
-</code>
-</td>
-<td>
-<code>
-// InlineComment
-/* BlockComment */
-</code>
-</td>
-</tr>
-</tbody>
-</table>
+```clike
+#include <iostream>  
+using namespace std;  
+int main() {  
+  int n1=0,n2=1,n3,i,number;    
+ cout<<"Enter the number of elements: ";    
+ cin>>number;    
+ cout<<n1<<" "<<n2<<" "; //printing 0 and 1    
+ for(i=2;i<number;++i) //loop starts from 2 because 0 and 1 are already printed    
+ {    
+  n3=n1+n2;    
+  cout<<n3<<" ";    
+  n1=n2;    
+  n2=n3;    
+ }    
+   return 0;  
+   }  
+```
+
+<!-- tabs:end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Python vs C++
@@ -162,11 +125,94 @@ int a;
 Python is an interpreted, high-level and general-purpose programming language.
 C++ is a high-level programming language, C++ adds object-oriented features to its predecessor, C.
 
-```python
-# This program prints Hello, world!
 
-print('Hello, world!')
+### Code Comparsion Python vs C++
+
+#### **Print Hello World**
+
+
+<!-- tabs:start -->
+
+#### ** Python **
+
+```clike
+print("Hello, World!")
 ```
+
+#### ** C++ **
+
+```clike
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+```
+
+<!-- tabs:end -->
+
+#### **Display Fibonacci Series**
+
+
+<!-- tabs:start -->
+
+#### ** Python  **
+
+```clike
+
+nterms = int(input("How many terms you want? "))  
+# first two terms  
+n1 = 0  
+n2 = 1  
+count = 2  
+# check if the number of terms is valid  
+if nterms <= 0:  
+   print("Plese enter a positive integer")  
+elif nterms == 1:  
+   print("Fibonacci sequence:")  
+   print(n1)  
+else:  
+   print("Fibonacci sequence:")  
+   print(n1,",",n2,end=', ')  
+   while count < nterms:  
+       nth = n1 + n2  
+       print(nth,end=' , ')  
+       # update values  
+       n1 = n2  
+       n2 = nth  
+       count += 1  
+}
+```
+
+#### ** C++ **
+
+```clike
+#include <iostream>  
+using namespace std;  
+int main() {  
+  int n1=0,n2=1,n3,i,number;    
+ cout<<"Enter the number of elements: ";    
+ cin>>number;    
+ cout<<n1<<" "<<n2<<" "; //printing 0 and 1    
+ for(i=2;i<number;++i) //loop starts from 2 because 0 and 1 are already printed    
+ {    
+  n3=n1+n2;    
+  cout<<n3<<" ";    
+  n1=n2;    
+  n2=n3;    
+ }    
+   return 0;  
+   }  
+```
+
+<!-- tabs:end -->
+
+
+
+
+
+
 
 
 
@@ -175,22 +221,57 @@ print('Hello, world!')
 HTML (HyperText Markup Language) is the most basic building block of the Web.
 Markdown is a lightweight markup language with plain-text-formatting syntax.
 
-```json
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
 
 
-## Blockquotes
+### Code Comparsion Html vs Markdown
 
+
+
+<!-- tabs:start -->
+
+#### ** Html **
+
+```html
+<h3>Html Page</h3>
+
+<p>This is a simple paragraph with <a href="https://example.com">link</a>.</p>
+
+<h1>Big Header</h1>
+
+<pre><code class="language-js">
+var turndownService = new TurndownService()
+console.log(
+  turndownService.turndown('&lt;h1&gt;Hello world&lt;/h1&gt;')
+)</code></pre>
+
+<hr />
+
+<ul>
+  <li>List One</li>
+  <li>List Two</li>
+</ul>
 ```
 
+#### ** Markdown **
 
+```markup
+### Html Page
 
+This is a simple paragraph with [link](https://example.com).
+
+Big Header
+==========
+
+    
+    var turndownService = new TurndownService()
+    console.log(
+      turndownService.turndown('<h1>Hello world</h1>')
+    )
+
+* * *
+
+*   List One
+*   List 
+```
+
+<!-- tabs:end -->
