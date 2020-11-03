@@ -1,13 +1,13 @@
 <!-- _navbar.md -->
 
-<!-- * Convert Your Code
+ * Convert Your Code
 
-  * [Converter](convert.thisvsthat.tech)
-  * [C++ to Python](more-pages.md)
-  * [Java to Python](custom-navbar.md)
-  * [Python to C++](cover.md)
+  * [Converter](https://convert.thisvsthat.tech ':crossorgin')
+  * [C++ to Python](https://convert.thisvsthat.tech ':crossorgin')
+  * [Java to Python](https://convert.thisvsthat.tech ':crossorgin')
+  * [Python to C++](https://convert.thisvsthat.tech ':crossorgin')
 
-* Account
+<!-- * Account
   * [Login](configuration.md)
   * [SignUp](themes.md)
  -->
