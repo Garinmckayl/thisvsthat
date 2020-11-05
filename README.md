@@ -17,6 +17,9 @@ Table of Contents
 
   * [Python vs C++](programming-languages.md#Python-vs-C++)
     * Python is an interpreted, high-level and general-purpose programming language.
+    
+  * [Python vs Java](programming-languages.md#Python-vs-Java)
+    * Python is an interpreted, high-level and general-purpose programming language.
 
   * [Html vs Markdown](programming-languages.md#Html-vs-Markdown)
     * HTML (HyperText Markup Language) is the most basic building block of the Web.
