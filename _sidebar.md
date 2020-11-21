@@ -26,3 +26,6 @@
 
   - [Apache Vs NGINX](servers.md#Apache-Vs-NGINX)
 
+- [Authentication Strategies](authentication.md)
+
+  - [Session Vs Token](authentication.md#Session-Vs-Token)
