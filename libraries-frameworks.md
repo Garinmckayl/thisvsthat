@@ -11,7 +11,8 @@ Table of Contents
 
 
 ## React vs Vue
-React is an open-source JavaScript library for building user interfaces or UI components.
+React is an open-source JavaScript library for building user interfaces or UI components. 
+
 Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.
 
 #### **Basic Component**
@@ -49,7 +50,8 @@ function MyReactComponent() {
 <!-- tabs:end -->
 
 ## Svelte vs React
-Svelte is an open-source Javascript framework, Svelte writes code that surgically updates the DOM when the state of your app changes.
+Svelte is an open-source Javascript framework, Svelte writes code that surgically updates the DOM when the state of your app changes. 
+
 React is an open-source JavaScript library for building user interfaces or UI components.
 
 
@@ -81,7 +83,8 @@ class MyVueComponent extends React.Component {
 
 
 ## Next vs Nuxt
-Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
+Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications. 
+
 Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.
 
 ```Next Basic link
@@ -121,20 +124,12 @@ function Home() {
 
 
 
-## Bootstrap vs Material
-Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
-Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.
+## Bootstrap vs Material Design
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. 
 
-```Next Basic link
-import Link from "next/link";
-function Home() {
-  return (
-    <Link href="/">
-      <a>Home</a>
-    </Link>
-  );
-}
-```
+Material Design is a design language that Google developed in 2014. Expanding on the "card" motifs that debuted in Google Now, Material Design uses more grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows. 
+
+
 
 
 
@@ -160,10 +155,11 @@ function Home() {
 
 
 ## Bootstrap vs Tailwind
-Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
-Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.  
 
-```Next Basic link
+A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+
+```html
 import Link from "next/link";
 function Home() {
   return (
@@ -178,13 +174,13 @@ function Home() {
 
 <!-- tabs:start -->
 
-#### ** Nextjs **
+#### ** Bootstrap **
 
 ```javascript
 
 ```
 
-#### ** Nuxtjs **
+#### ** Tailwind **
 
 ```javascript
 

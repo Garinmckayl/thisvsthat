@@ -4,23 +4,24 @@ Table of Contents
 =================
 
    * [C vs C++](#C-vs-C++)
-      * [Code Comparsion](#Code-Comparsion-C-vs-C++)
+      * [Code Comparison](#Code-Comparison-C-vs-C++)
    * [Python vs C++](#Python-vs-C++)
-      * [Code Comparsion](#Code-Comparsion-Python-vs-C++)
+      * [Code Comparison](#Code-Comparison-Python-vs-C++)
    * [Python vs Java](#Python-vs-Java)
-      * [Code Comparsion](#Code-Comparsion-Python-vs-Java)
+      * [Code Comparison](#Code-Comparison-Python-vs-Java)
    * [Html vs Markdown](#Html-vs-Markdown)
-      * [Code Comparsion](#Code-Comparsion-Html-vs-Markdown)
+      * [Code Comparison](#Code-Comparison-Html-vs-Markdown)
 
 
 
 ## C vs C++
 
-C and C++ are somehow similar languages, C++ released as extension for C programming language.
+C and C++ are somehow similar languages, C++ released as extension for C programming language. 
+
 C is a general-purpose, procedural computer programming language.
 C++ is a high-level programming language, C++ adds object-oriented features to its predecessor, C.
 
-### Code Comparsion C vs C++
+### Code Comparison C vs C++
 
 #### **Print Hello World**
 
@@ -196,11 +197,12 @@ cout<<num<<"is not Palindrome.";
 
 ## Python vs C++
 
-Python is an interpreted, high-level and general-purpose programming language.
+Python is an interpreted, high-level and general-purpose programming language. 
+
 C++ is a high-level programming language, C++ adds object-oriented features to its predecessor, C.
 
 
-### Code Comparsion Python vs C++
+### Code Comparison Python vs C++
 
 #### **Print Hello World**
 
@@ -242,7 +244,7 @@ n2 = 1
 count = 2  
 # check if the number of terms is valid  
 if nterms <= 0:  
-   print("Plese enter a positive integer")  
+   print("Please enter a positive integer")  
 elif nterms == 1:  
    print("Fibonacci sequence:")  
    print(n1)  
@@ -367,11 +369,12 @@ cout<<num<<"is not Palindrome.";
 
 ## Python vs Java
 
-Python is an interpreted, high-level and general-purpose programming language.
-C++ is a high-level programming language, C++ adds object-oriented features to its predecessor, C.
+Python is an interpreted, high-level and general-purpose programming language. 
+
+Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
 
 
-### Code Comparsion Python vs Java
+### Code Comparison Python vs Java
 
 #### **Print Hello World**
 
@@ -496,7 +499,7 @@ public class Palindrome {
             num  /= 10;
         }
 
-        // palindrome if orignalInteger and reversedInteger are equal
+        // palindrome if originalInteger and reversedInteger are equal
         if (originalInteger == reversedInteger)
             System.out.println(originalInteger + " is a palindrome.");
         else
@@ -532,12 +535,13 @@ public class Palindrome {
 
 ## Html vs Markdown
 
-HTML (HyperText Markup Language) is the most basic building block of the Web.
+HTML (HyperText Markup Language) is the most basic building block of the Web. 
+
 Markdown is a lightweight markup language with plain-text-formatting syntax.
 
 
 
-### Code Comparsion Html vs Markdown
+### Code Comparison Html vs Markdown
 
 
 

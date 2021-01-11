@@ -19,9 +19,7 @@ Uses SQL a query language.It is also available in commercial version. MySQL is c
 
 ## What is PostgreSql?
 
-PostgreSQL is a free and open-source relational database management system.
-Uses SQL as a query language similar to MySql.
-
+PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. 
 
 ### Syntax
 Both Databases use [SQL](https://en.wikipedia.org/wiki/SQL)(Structured Query Language).
@@ -50,21 +48,19 @@ Uses SQL a query language.It is also available in commercial version. MySQL is c
 
 ## What is MongoDb?
 
-MongoDb is a free and open-source relational database management system.
-Uses SQL as a query language similar to MySql.
-
+MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
 
 ### Syntax
-Both Databases use [SQL](https://en.wikipedia.org/wiki/SQL)(Structured Query Language).
-So syntaxes are identical across both databases.
+Mysql uses [SQL](https://en.wikipedia.org/wiki/SQL)(Structured Query Language).
+So syntaxes are very different across both databases.
 MySQL Query 
 ```Sql
 SELECT * FROM users;
 ```
 
-PostgreSQL query:
+MongoDb query:
 ```Sql
-SELECT * FROM users;
+
 ```
 
 
@@ -82,28 +78,15 @@ SELECT * FROM users;
 ## MongoDb vs DynamoDb
 
 ## What is MongoDb?
-MySQL is an open-source relational database management system.
-Uses SQL a query language.It is also available in commercial version. MySQL is currently maintained by the Oracle Corporation.
+MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
 
 
 ## What is DynamoDb?
 
-PostgreSQL is a free and open-source relational database management system.
-Uses SQL as a query language similar to MySql.
+Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key-value and document data structures and is offered by Amazon.com as part of the Amazon Web Services portfolio.
 
 
 ### Syntax
-Both Databases use [SQL](https://en.wikipedia.org/wiki/SQL)(Structured Query Language).
-So syntaxes are identical across both databases.
-MySQL Query 
-```Sql
-SELECT * FROM users;
-```
-
-PostgreSQL query:
-```Sql
-SELECT * FROM users;
-```
 
 
 
@@ -117,25 +100,12 @@ SELECT * FROM users;
 ## Redis vs Memcached
 
 ## What is Redis?
-MySQL is an open-source relational database management system.
-Uses SQL a query language.It is also available in commercial version. MySQL is currently maintained by the Oracle Corporation.
+Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker.
 
 
 ## What is Memcached?
 
-PostgreSQL is a free and open-source relational database management system.
-Uses SQL as a query language similar to MySql.
+Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
 
 
 ### Syntax
-Both Databases use [SQL](https://en.wikipedia.org/wiki/SQL)(Structured Query Language).
-So syntaxes are identical across both databases.
-MySQL Query 
-```Sql
-SELECT * FROM users;
-```
-
-PostgreSQL query:
-```Sql
-SELECT * FROM users;
-```
