@@ -41,6 +41,15 @@ Table of Contents
     * Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
     * Nuxt.js is a free and open source web application framework based on Vue.js, Webpack and Babel.js.
 
+  * [Bootstrap vs Material](libraries-frameworks.md#Bootstrap-vs-Material)
+    * Bootstrap is a free and open source web application framework based on react.js, It allows you to build ssr applications.
+    * Material UI is a free and open source web application framework based on Vue.js, Webpack and Babel.js.
+
+  * [Bootstrap vs Tailwind](libraries-frameworks.md#Bootstrap-vs-Material)
+    * Bootstrap is a free and open source web application framework based on react.js, It allows you to build ssr applications.
+    * Tailwind UI is a free and open source web application framework based on Vue.js, Webpack and Babel.js.
+  
+
 
 ## Databases
 

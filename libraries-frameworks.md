@@ -6,6 +6,8 @@ Table of Contents
    * [React vs Vue](#React-vs-Vue)
    * [Svelte vs React](#Svelte-vs-React)
    * [Next vs Nuxt](#Next-vs-Nuxt)
+   * [Bootstrap vs Material](#Bootstrap-vs-Material)
+   * [Bootstrap vs Tailwind](l#Bootstrap-vs-Tailwind)
 
 
 ## React vs Vue
@@ -79,6 +81,85 @@ class MyVueComponent extends React.Component {
 
 
 ## Next vs Nuxt
+Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
+Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.
+
+```Next Basic link
+import Link from "next/link";
+function Home() {
+  return (
+    <Link href="/">
+      <a>Home</a>
+    </Link>
+  );
+}
+```
+
+
+
+<!-- tabs:start -->
+
+#### ** Nextjs **
+
+```javascript
+
+```
+
+#### ** Nuxtjs **
+
+```javascript
+
+```
+
+<!-- tabs:end -->
+
+
+
+
+
+
+
+
+
+## Bootstrap vs Material
+Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
+Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.
+
+```Next Basic link
+import Link from "next/link";
+function Home() {
+  return (
+    <Link href="/">
+      <a>Home</a>
+    </Link>
+  );
+}
+```
+
+
+
+<!-- tabs:start -->
+
+#### ** Nextjs **
+
+```javascript
+
+```
+
+#### ** Nuxtjs **
+
+```javascript
+
+```
+
+<!-- tabs:end -->
+
+
+
+
+
+
+## Bootstrap vs Tailwind
 Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
 Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.
 
