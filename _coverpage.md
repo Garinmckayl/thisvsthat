@@ -1,8 +1,11 @@
 ![logo](_media/logo.png)
 
-> Learn web-development by comparing similar technologies.
-
+>🚀 Learn web-development by comparing similar technologies.
 - Compare different programming languages, frameworks and development tools.
 
-[GitHub](https://github.com/Garinmckayl/thisvsthat)
-[Getting Started](#table-of-contents)
+
+<div class="buttons">
+  <a href="https://github.com/Garinmckayl/thisvsthat/" target="_blank"><span>GitHub</span></a>
+  <a href="#/README"><span>Get Started</span></a>
+</div>
+

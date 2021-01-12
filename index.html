@@ -25,6 +25,7 @@
   title="docsify-darklight-theme"
   type="text/css"
 />
+    <link rel="stylesheet" href="assets/styles.css" />
   <link rel="icon" href="_media/logo.png" type="image/png">
   <style>
   :root {
@@ -43,12 +44,16 @@
   <script>
     window.$docsify = {
       name: 'ThisVsThat.tech',
+      logo: 'assets/images/logo.png',
       repo: 'Garinmckayl/thisvsthat',
       search: ['/'],
       coverpage: true,
+      onlyCover: true,
       auto2top: true,
       loadSidebar: true,
+      autoHeader: false,
       subMaxLevel: 3,
+      maxLevel: 4,
       loadNavbar: true,
       executeScript: true,
       tabs: {

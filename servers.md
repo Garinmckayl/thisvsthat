@@ -21,6 +21,7 @@ RedirectMatch 301 ^/blog /blog.html
 ## Nginx
 Nginx pronounced Engine x. 
 Nginx is an extremely performant server, It Can handle more than 10000 simultaneous connections. 
+
 It is Commonly used as a reverse proxy(distribute the load to multiple backend servers), like database servers, application server. 
 Nginx does not allow external configuration like apache(htaccess).
 Configuration file can be found on etc directory. 

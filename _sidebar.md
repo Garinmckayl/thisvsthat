@@ -1,8 +1,6 @@
 - Getting started
 
-  - [ThisVsThat](/)
-  - [Table of Contents](#table-of-contents)
-
+  
 
 - [Programming languages](programming-languages.md  "Compare different programming Languages")
 
@@ -35,3 +33,6 @@
 - [Authentication Strategies](authentication.md)
 
   - [Session Vs Token](authentication.md#Session-Vs-Token)
+
+
+- [Contributing](CONTRIBUTING.md)
