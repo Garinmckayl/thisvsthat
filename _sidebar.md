@@ -7,6 +7,8 @@
   - [C vs C++](programming-languages.md#C-vs-C++ "C VS C++ comparison")
   - [Python vs C++](programming-languages.md#Python-vs-C++ "Python Vs C++ comparison")
   - [Python vs Java](programming-languages.md#Python-vs-Java "Python Vs Java comparison")
+  - [Javascript vs Python](programming-languages.md#Javascript-vs-Python)
+  - [Javascript vs Java](programming-languages.md#Javascript-vs-Java)
   - [Html vs Markdown](programming-languages.md#Html-vs-Markdown)
 
 
@@ -14,6 +16,7 @@
 
   - [React vs Vue](libraries-frameworks.md#React-vs-Vue "React VS Vue in depth comparison")
   - [Svelte vs React](libraries-frameworks.md#Svelte-vs-React)
+  - [jquery vs React](libraries-frameworks.md#Jquery-vs-React)
   - [Next vs Nuxt](libraries-frameworks.md#Next-vs-Nuxt)
   - [Bootstrap vs Material](libraries-frameworks.md#Bootstrap-vs-Material)
   - [Bootstrap vs Tailwind](libraries-frameworks.md#Bootstrap-vs-Tailwind)

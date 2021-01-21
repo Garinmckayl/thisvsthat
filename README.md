@@ -22,6 +22,12 @@ Table of Contents
   * [Python vs Java](programming-languages.md#Python-vs-Java)
     * Python is an interpreted, high-level and general-purpose programming language.
 
+  * [Javascript vs Python](programming-languages.md#Javascript-vs-Python)
+    * Javascript is a programming language mainly use in browser, but now-a-days it is being use everywhere on the server, on Iot devices.
+    
+  * [Javascript vs Java](programming-languages.md#Javascript-vs-Java)
+    * Java is a class-based, object-oriented programming language that is owned by Oracle. 
+
   * [Html vs Markdown](programming-languages.md#Html-vs-Markdown)
     * HTML (HyperText Markup Language) is the most basic building block of the Web.
     * Markdown is a lightweight markup language with plain-text-formatting syntax.
@@ -37,6 +43,10 @@ Table of Contents
   * [Svelte vs React](libraries-frameworks.md#Svelte-vs-React)
     * Svelte is an open-source Javascript framework, Svelte writes code that surgically updates the DOM when the state of your app changes.
     
+  *  [jquery vs React](libraries-frameworks.md#Jquery-vs-React)
+    * jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
+    
+
   * [Next vs Nuxt](libraries-frameworks.md#Next-vs-Nuxt)
     * Next.js is a free and open source web application framework based on react.js, It allows you to build ssr applications.
     * Nuxt.js is a free and open source web application framework based on Vue.js, Webpack and Babel.js.

@@ -5,6 +5,7 @@ Table of Contents
 
    * [React vs Vue](#React-vs-Vue)
    * [Svelte vs React](#Svelte-vs-React)
+   * [Jquery vs React](#Jquery-vs-React)
    * [Next vs Nuxt](#Next-vs-Nuxt)
    * [Bootstrap vs Material](#Bootstrap-vs-Material)
    * [Bootstrap vs Tailwind](l#Bootstrap-vs-Tailwind)
@@ -80,6 +81,45 @@ class MyVueComponent extends React.Component {
 ```
 
 <!-- tabs:end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Jquery vs React
+Svelte is an open-source Javascript framework, Svelte writes code that surgically updates the DOM when the state of your app changes. 
+
+React is an open-source JavaScript library for building user interfaces or UI components.
+
+
+<!-- tabs:start -->
+
+#### ** Jquery **
+
+```javascript
+
+```
+
+#### ** Reactjs **
+
+```javascript
+class MyVueComponent extends React.Component {
+  render() {
+    return <h1>Hello world</h1>;
+  }
+}
+```
+
+<!-- tabs:end -->
+
 
 
 ## Next vs Nuxt

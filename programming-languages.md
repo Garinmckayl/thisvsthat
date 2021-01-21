@@ -9,11 +9,12 @@ Table of Contents
       * [Code Comparison](#Code-Comparison-Python-vs-C++)
    * [Python vs Java](#Python-vs-Java)
       * [Code Comparison](#Code-Comparison-Python-vs-Java)
+   * [Javascript vs Python](#Javascript-vs-Python)
+      * [Code Comparison](#Code-Comparison-Javascript-vs-Python)
+   * [Javascript vs Java](#Javascript-vs-Java)
+      * [Code Comparison](#Code-Comparison-Javascript-vs-Java)
    * [Html vs Markdown](#Html-vs-Markdown)
       * [Code Comparison](#Code-Comparison-Html-vs-Markdown)
-
-
-
 ## C vs C++
 
 C and C++ are somehow similar languages, C++ released as extension for C programming language. 
@@ -525,6 +526,80 @@ public class Palindrome {
 
 
 
+
+
+
+
+
+## Javascript vs Python
+
+Javascript is a programming language mainly use in browser, but now-a-days it is being use everywhere on the server, on Iot devices. 
+
+Python is an interpreted, high-level and general-purpose programming language.
+
+
+### Code Comparison Javascript vs Python
+
+
+
+
+<!-- tabs:start -->
+
+#### ** JavaScript **
+
+```html
+
+```
+
+#### ** Java **
+
+
+```markup
+
+```
+
+<!-- tabs:end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Javascript vs Java
+
+
+Java is a class-based, object-oriented programming language that is owned by Oracle. 
+
+
+### Code Comparison Javascript vs Java
+
+
+
+<!-- tabs:start -->
+
+#### ** JavaScript **
+
+```html
+
+```
+
+#### ** Java **
+
+
+```markup
+
+```
+
+<!-- tabs:end -->
 
 
 
