@@ -94,6 +94,6 @@ Table of Contents
 ## Authentication
 
 * [Session Vs Token](authentication.md#Session-Vs-Token)
-  * The Apache HTTP Server is a free and open-source cross-platform web server.
-  * NGINX is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.
+  * Session is an Authentication Strategy where auth state is managed on the serever.
+  * Token is an Authentication Strategy where auth state is managed on the browser.
   
