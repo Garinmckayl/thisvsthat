@@ -81,7 +81,10 @@ Table of Contents
   * MySQL is an open-source relational database management system.
   * PostgreSQL is a free and open-source relational database management system.
   
-
+* [Dgraph vs Neo4j](databases.md#Dgraph-vs-Neo4j)
+  * Dgraph is an open-source relational database management system.
+  * Neo4j is a free and open-source relational database management system.
+  
     
 ## Servers
 

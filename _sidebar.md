@@ -28,6 +28,8 @@
   - [MySql vs MongoDb](databases.md#MySql-vs-MongoDb)
   - [MongoDb vs DynamoDB](databases.md#MongoDb-vs-DynamoDb)
   - [Redis vs Memcached](databases.md#Redis-vs-Memcached)
+  - [Dgraph vs Neo4j](databases.md#Dgraph-vs-Neo4j)
+
 
 - [Servers](servers.md)
 

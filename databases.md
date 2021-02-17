@@ -7,6 +7,8 @@ Table of Contents
    * [MySql vs MongoDb](#MySql-vs-MongoDb)
    * [MongoDb vs DynamoDB](#MongoDb-vs-DynamoDb)
    * [Redis vs Memcached](#Redis-vs-Memcached)
+   * [Dgraph vs Neo4j](#Dgraph-vs-Neo4j)
+
 
 
 
@@ -106,6 +108,23 @@ Redis is an open source (BSD licensed), in-memory data structure store, used as 
 ## What is Memcached?
 
 Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
+
+
+### Syntax
+
+
+
+
+
+## Dgraph vs Neo4j
+
+## What is Dgraph?
+Dgraph is the most popular [graph database](https://en.wikipedia.org/wiki/Graph_database) out there with over [15k stars](https://github.com/dgraph-io/dgraph) on github. Dgraph comes with out of the box support to Graphql.
+
+
+## What is Neo4j?
+
+Neo4j is popular open source [Graph Database](https://en.wikipedia.org/wiki/Graph_database) developed using java programming language.
 
 
 ### Syntax
