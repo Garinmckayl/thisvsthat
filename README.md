@@ -9,6 +9,7 @@ Table of Contents
    * [Databases](#Databases)
    * [Servers](#Servers)
    * [Authentication](#Authentication)
+   * [Mobile Frameworks](#Mobile-Frameworks)
 
 ## Programming Languages
 
@@ -97,6 +98,18 @@ Table of Contents
 ## Authentication
 
 * [Session Vs Token](authentication.md#Session-Vs-Token)
+  * Session is an Authentication Strategy where auth state is managed on the serever.
+  * Token is an Authentication Strategy where auth state is managed on the browser.
+  
+
+
+## Mobile Frameworks
+
+* [Ionic Vs Cordova](authentication.md#Ionic-Vs-Cordova)
+  * Session is an Authentication Strategy where auth state is managed on the serever.
+  * Token is an Authentication Strategy where auth state is managed on the browser.
+  
+* [Flutter Vs React Native](mobile-frameworks.md#Flutter-Vs-ReactNative)
   * Session is an Authentication Strategy where auth state is managed on the serever.
   * Token is an Authentication Strategy where auth state is managed on the browser.
   
