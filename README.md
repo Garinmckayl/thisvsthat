@@ -105,11 +105,12 @@ Table of Contents
 
 ## Mobile Frameworks
 
-* [Ionic Vs Cordova](authentication.md#Ionic-Vs-Cordova)
-  * Session is an Authentication Strategy where auth state is managed on the serever.
-  * Token is an Authentication Strategy where auth state is managed on the browser.
-  
 * [Flutter Vs React Native](mobile-frameworks.md#Flutter-Vs-ReactNative)
-  * Session is an Authentication Strategy where auth state is managed on the serever.
-  * Token is an Authentication Strategy where auth state is managed on the browser.
+  * Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+  * React Native is an open-source mobile application framework created by Facebook, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP.
+  
+
+* [Ionic Vs Cordova](authentication.md#Ionic-Vs-Cordova)
+  * Ionic is a complete open-source SDK for building hybrid cross platform mobile, web, and desktop apps all with one shared code base.
+  * Apache Cordova is a mobile application development framework created by Nitobi.
   
