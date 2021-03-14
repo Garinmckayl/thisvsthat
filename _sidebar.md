@@ -46,5 +46,9 @@
   - [Ionic Vs Cordova](authentication.md#Ionic-Vs-Cordova)
 
 
+- [Machine Learning](machine-learning.md)
+
+  - [TenserFlow Vs Pytorch](machine-learning.md#Tenserflow-Vs-Pytorch)
+
 
 - [Contributing](CONTRIBUTING.md)

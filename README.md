@@ -10,6 +10,7 @@ Table of Contents
    * [Servers](#Servers)
    * [Authentication](#Authentication)
    * [Mobile Frameworks](#Mobile-Frameworks)
+   * [Machine Learning](#Machine-Learning)
 
 ## Programming Languages
 
@@ -114,3 +115,13 @@ Table of Contents
   * Ionic is a complete open-source SDK for building hybrid cross platform mobile, web, and desktop apps all with one shared code base.
   * Apache Cordova is a mobile application development framework created by Nitobi.
   
+
+
+
+## Machine Learning
+
+* [Tenserflow Vs Pytorch](machine-learning.md#Tenserflow-Vs-Pytorch)
+  * TensorFlow is a free and open-source software library for machine learning. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.
+  * PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.
+  
+
