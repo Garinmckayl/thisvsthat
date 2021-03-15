@@ -99,7 +99,7 @@ Table of Contents
 ## Authentication
 
 * [Session Vs Token](authentication.md#Session-Vs-Token)
-  * Session is an Authentication Strategy where auth state is managed on the serever.
+  * Session is an Authentication Strategy where auth state is managed on the server.
   * Token is an Authentication Strategy where auth state is managed on the browser.
   
 
